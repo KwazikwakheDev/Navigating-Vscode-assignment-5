@@ -7,7 +7,7 @@ Answer the following questions based on your understanding of the installation a
 
  **Questions:**
 1. **Installation of VS Code:**
-   - Describe the steps to download and install Visual Studio Code on Windows 11 operating system. Include any prerequisites that might be needed.
+Describe the steps to download and install Visual Studio Code on Windows 11 operating system. Include any prerequisites that might be needed.
 
    **Steps To Download And Install Vs Code in Windows 11**
 **Step 1:** **Open the web browser**:
@@ -38,14 +38,27 @@ Answer the following questions based on your understanding of the installation a
 The Only prerequisites i think its important to have is **windows 11** and a 64 bit machine.
    
 2. **First-time Setup:**
-   - After installing VS Code, what initial configurations and settings should be adjusted for an optimal coding environment? Mention any important settings or extensions.
+ After installing VS Code, what initial configurations and settings should be adjusted for an optimal coding environment? Mention any important settings or extensions.
+   
+   - Choose a theme that suits your preference for code readability and aesthetics
+   - Popular choices include "Dark+", "Light+", or community themes like "Dracula" or "Material Theme"
+   - Select a clear and readable font like "Consolas", "Fira Code", or "Roboto Mono". Adjust font size as needed.
+   
+   -  Install essential extensions for your programming language or workflow.
+   - Enable line numbers and minimap for navigation.
+   - Live Server for instant browser refresh while web development
+
+   - GitLens for enhanced version control integration
+   - Enable autosave for convenience ("files.autoSave": "on")
 
 3. **User Interface Overview:**
-   - Explain the main components of the VS Code user interface. Identify and describe the purpose of the Activity Bar, Side Bar, Editor Group, and Status Bar.
-
+Explain the main components of the VS Code user interface. Identify and describe the purpose of the Activity Bar, Side Bar, Editor Group, and Status Bar.
+   - Provides quick access to core functionalities like Explorer (file navigation), Search, Source Control, Run & Debug, and Extensions.
+   - Displays content related to the selected activity, such as the file tree in Explorer, search results, version control changes, or installed extensions.
+   - Supports multiple tabs and split views, allowing you to work on multiple files simultaneously.
+   - Shows information about the current workspace and files, such as line and column numbers, language mode, encoding, and any running tasks or processes.
 4. **Command Palette:**
-   - What is the Command Palette in VS Code, and how can it be accessed? Provide examples of common tasks that can be performed using the Command Palette.
-## What is the Command Palette?
+What is the Command Palette in VS Code, and how can it be accessed? Provide examples of common tasks that can be performed using the Command Palette.
 - The Command Palette is like a magic box in VS Code that helps you do many tasks quickly without using the mouse.
 
 **How to Access the Command Palette:**
@@ -70,14 +83,14 @@ The Only prerequisites i think its important to have is **windows 11** and a 64 
 *The Command Palette helps you do things quickly and easily!*
 
 5. **Extensions in VS Code:**
-   - Discuss the role of extensions in VS Code. How can users find, install, and manage extensions? Provide examples of essential extensions for web development.
+Discuss the role of extensions in VS Code. How can users find, install, and manage extensions? Provide examples of essential extensions for web development.
 
    - Extensions in VS Code are like add-ons or plugins that enhance the functionality of the editor. They allow users to customize their coding experience, add new features, and support for different programming languages or frameworks
    - Users can browse and search for extensions directly within VS Code by clicking on the Extensions icon in the Activity Bar or using the shortcut Ctrl+Shift+X.
    - Examples of extensions include, Prettier, ESLint and Live Server.
 
 6. **Integrated Terminal:**
-   - Describe how to open and use the integrated terminal in VS Code. What are the advantages of using the integrated terminal compared to an external terminal?
+Describe how to open and use the integrated terminal in VS Code. What are the advantages of using the integrated terminal compared to an external terminal?
 
    - To open the terminal Use the shortcut `Ctrl+`` (backtick) to open the integrated terminal.
    - Alternatively, navigate to the View menu and select "Terminal."
@@ -92,7 +105,7 @@ The Only prerequisites i think its important to have is **windows 11** and a 64 
 
 
 7. **File and Folder Management:**
-   - Explain how to create, open, and manage files and folders in VS Code. How can users navigate between different files and directories efficiently?
+Explain how to create, open, and manage files and folders in VS Code. How can users navigate between different files and directories efficiently?
 
    - Use the Explorer view in the Activity Bar to right-click and select "New File" or "New Folder."
    - Alternatively, use the command palette (Ctrl+Shift+P) and type "New File" or "New Folder."
@@ -108,7 +121,7 @@ The Only prerequisites i think its important to have is **windows 11** and a 64 
 
 
 8. **Settings and Preferences:**
-   - Where can users find and customize settings in VS Code? Provide examples of how to change the theme, font size, and keybindings.
+Where can users find and customize settings in VS Code? Provide examples of how to change the theme, font size, and keybindings.
 
    + Settings are accessible via the gear icon in the bottom left corner or by pressing Ctrl+,
    + Go to Settings > Color Theme, select a theme from the list.
@@ -117,7 +130,7 @@ The Only prerequisites i think its important to have is **windows 11** and a 64 
 
 
 9. **Debugging in VS Code:**
-   - Outline the steps to set up and start debugging a simple program in VS Code. What are some key debugging features available in VS Code?
+Outline the steps to set up and start debugging a simple program in VS Code. What are some key debugging features available in VS Code?
 
    + Ensure that the debugger for your programming is installed in VS code.
    + Click on the debug icon in the Activity Bar or press Ctrl+Shift+D.
@@ -135,9 +148,9 @@ The Only prerequisites i think its important to have is **windows 11** and a 64 
 
 
 10. **Using Source Control:**
-    - How can users integrate Git with VS Code for version control? Describe the process of initializing a repository, making commits, and pushing changes to GitHub.
+How can users integrate Git with VS Code for version control? Describe the process of initializing a repository, making commits, and pushing changes to GitHub.
 
-    + Open your project in VS Code.
+    - Open your project in VS Code.
     + Click on the Source Control icon in the Activity Bar or press Ctrl+Shift+G.
     + Click on "Initialize Repository" to create a new Git repository.
 
