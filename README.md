@@ -10,7 +10,7 @@ Answer the following questions based on your understanding of the installation a
 Describe the steps to download and install Visual Studio Code on Windows 11 operating system. Include any prerequisites that might be needed.
 
    **Steps To Download And Install Vs Code in Windows 11**
-**Step 1:** **Open the web browser**:
+ **Step 1:** **Open the web browser**:
    - Click on the web browser icon (like Chrome, Edge, or Firefox).
 
 **Step 2:** **Go to the VS Code website**:
@@ -139,7 +139,7 @@ Outline the steps to set up and start debugging a simple program in VS Code. Wha
    + Set breakpoints in your code by clicking in the gutter next to the line numbers.
    + Press F5 or click on the green play button to start debugging.
 
-   - Key Debugging Features 
+   - **Key Debugging Features**
    + Set breakpoints to pause code execution at specific lines for inspection.
    + View the values of variables at any point during debugging.
    + Monitor specific variables or expressions and see their values change in real-time.
